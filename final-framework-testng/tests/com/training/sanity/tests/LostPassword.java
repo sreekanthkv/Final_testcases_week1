@@ -41,6 +41,8 @@ public class LostPassword {
 	screenShot = new ScreenShot(driver); 
 	// open the browser 
 	driver.get(baseUrl);
+	
+	// new
 	}
 
 
