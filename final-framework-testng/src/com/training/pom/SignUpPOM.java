@@ -49,6 +49,9 @@ public class SignUpPOM {
 	@FindBy(xpath = "//div[@class='radio']/label/input")
 	private WebElement student;
 	
+	@FindBy(xpath = "//div[@class='radio']/label/input[@value='1']")
+	private WebElement teacher;
+	
 	@FindBy(id="registration_submit")
 	private WebElement register; 	
 	
@@ -100,6 +103,10 @@ public class SignUpPOM {
 	}
 	
 	public void student() {
+		this.student.click(); 
+	}
+	
+	public void teacher() {
 		this.student.click(); 
 	}
 	

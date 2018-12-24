@@ -15,7 +15,7 @@ import com.training.pom.SignUpPOM;
 import com.training.utility.DriverFactory;
 import com.training.utility.DriverNames;
 
-public class SignupTests {
+public class SignupTeacherTests {
 	
 	private static Properties properties;
 	private WebDriver driver;
@@ -41,17 +41,17 @@ public class SignupTests {
 	}
 	
 	@Test
-	public void signUp() {
+	public void signUpTeacher() {
 		signPOM.clickSignUpBtn();
-		signPOM.sendfirstName("Bharat3");
-		signPOM.sendlastName("waja12");
-		signPOM.sendemail("bharat1234@gmail.com");
-		signPOM.senduserName("bharatwaja1234");
+		signPOM.sendfirstName("Bharat30");
+		signPOM.sendlastName("waja123");
+		signPOM.sendemail("bharat12345@gmail.com");
+		signPOM.senduserName("bharatwaja12345");
 		signPOM.pass1("Test@1234");
 		signPOM.pass2("Test@1234");
 		signPOM.phone("9874563210");
 		signPOM.registrationLanguage("English");
-		signPOM.student();
+		signPOM.teacher();
 		signPOM.register();
 		screenShot.captureScreenShot("Third");
 		

@@ -2,28 +2,24 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="17540" started-at="2018-12-20T04:21:35Z" finished-at="2018-12-20T04:21:52Z">
+  <suite name="Default suite" duration-ms="28018" started-at="2018-12-24T04:56:59Z" finished-at="2018-12-24T04:57:27Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="17540" started-at="2018-12-20T04:21:35Z" finished-at="2018-12-20T04:21:52Z">
-      <class name="com.training.sanity.tests.SignupTests">
-        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.SignupTests@27efef64]" name="setUpBeforeClass" is-config="true" duration-ms="20" started-at="2018-12-20T04:21:35Z" finished-at="2018-12-20T04:21:35Z">
+    <test name="Default test" duration-ms="28018" started-at="2018-12-24T04:56:59Z" finished-at="2018-12-24T04:57:27Z">
+      <class name="com.training.sanity.tests.LostPassword">
+        <test-method status="PASS" signature="setUpBeforeClass()[pri:0, instance:com.training.sanity.tests.LostPassword@59f99ea]" name="setUpBeforeClass" is-config="true" duration-ms="20985" started-at="2018-12-24T04:56:59Z" finished-at="2018-12-24T04:57:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpBeforeClass -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.training.sanity.tests.SignupTests@27efef64]" name="setUp" is-config="true" duration-ms="9563" started-at="2018-12-20T04:21:35Z" finished-at="2018-12-20T04:21:44Z">
+        <test-method status="PASS" signature="lostpasswordTest()[pri:0, instance:com.training.sanity.tests.LostPassword@59f99ea]" name="lostpasswordTest" duration-ms="4351" started-at="2018-12-24T04:57:20Z" finished-at="2018-12-24T04:57:24Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="signUp()[pri:0, instance:com.training.sanity.tests.SignupTests@27efef64]" name="signUp" duration-ms="5740" started-at="2018-12-20T04:21:44Z" finished-at="2018-12-20T04:21:50Z">
+        </test-method> <!-- lostpasswordTest -->
+        <test-method status="PASS" signature="manTest()[pri:0, instance:com.training.sanity.tests.LostPassword@59f99ea]" name="manTest" is-config="true" duration-ms="2662" started-at="2018-12-24T04:57:24Z" finished-at="2018-12-24T04:57:27Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- signUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.training.sanity.tests.SignupTests@27efef64]" name="tearDown" is-config="true" duration-ms="2215" started-at="2018-12-20T04:21:50Z" finished-at="2018-12-20T04:21:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.training.sanity.tests.SignupTests -->
+        </test-method> <!-- manTest -->
+      </class> <!-- com.training.sanity.tests.LostPassword -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
